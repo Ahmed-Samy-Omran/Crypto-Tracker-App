@@ -30,13 +30,12 @@ import com.example.cryptotrackerapp.ui.theme.CryptoTrackerTheme
 
 @Composable
 fun InfoCard(
-    title:String,
-    formattedText:String,
-    icon:ImageVector,
+    title: String,
+    formattedText: String,
+    icon: ImageVector,
     modifier: Modifier = Modifier,
     contentColor: Color = MaterialTheme.colorScheme.onSurface,
-
-    ) {
+) {
     val defaultTextStyle = LocalTextStyle.current.copy(
         textAlign = TextAlign.Center,
         fontSize = 18.sp,
@@ -106,7 +105,6 @@ fun InfoCard(
         )
     }
 }
-
 
 @PreviewLightDark
 @Composable
